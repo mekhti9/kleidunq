@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		4216862E29ED1B46002996A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216862D29ED1B46002996A1 /* AppDelegate.swift */; };
 		4216863029ED1B46002996A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216862F29ED1B46002996A1 /* SceneDelegate.swift */; };
-		4216863229ED1B46002996A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216863129ED1B46002996A1 /* ViewController.swift */; };
-		4216863529ED1B46002996A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4216863329ED1B46002996A1 /* Main.storyboard */; };
+		4216863229ED1B46002996A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216863129ED1B46002996A1 /* HomeViewController.swift */; };
 		4216863729ED1B47002996A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4216863629ED1B47002996A1 /* Assets.xcassets */; };
 		4216863A29ED1B47002996A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4216863829ED1B47002996A1 /* LaunchScreen.storyboard */; };
+		4216864329ED20E6002996A1 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216864229ED20E6002996A1 /* TabBarVC.swift */; };
+		4216864529ED2161002996A1 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216864429ED2161002996A1 /* SearchVC.swift */; };
+		4216864729ED21D5002996A1 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216864629ED21D5002996A1 /* CartVC.swift */; };
+		4216865429ED2AEE002996A1 /* searchButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216865329ED2AEE002996A1 /* searchButtons.swift */; };
+		4216865629F720BB002996A1 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216865529F720BB002996A1 /* ProductsVC.swift */; };
+		425930352A05B18D00BC3D44 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425930342A05B18D00BC3D44 /* CartManager.swift */; };
+		42B7DA782A335149005C7C91 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B7DA772A335149005C7C91 /* extensions.swift */; };
+		42B7DA7A2A33529D005C7C91 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B7DA792A33529D005C7C91 /* CartCell.swift */; };
+		42B7DA7E2A37CD07005C7C91 /* KleidungVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B7DA7D2A37CD07005C7C91 /* KleidungVC.swift */; };
+		42C3AAEE29FBAF3D00D02A24 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C3AAED29FBAF3D00D02A24 /* MenuCollectionViewCell.swift */; };
+		42C3AAF029FBCF1D00D02A24 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C3AAEF29FBCF1D00D02A24 /* Item.swift */; };
+		42C3AAF229FC4CF800D02A24 /* TovarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C3AAF129FC4CF800D02A24 /* TovarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4216862A29ED1B46002996A1 /* klaudinq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = klaudinq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4216862D29ED1B46002996A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4216862F29ED1B46002996A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4216863129ED1B46002996A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4216863429ED1B46002996A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4216863129ED1B46002996A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4216863629ED1B47002996A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4216863929ED1B47002996A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4216863B29ED1B47002996A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4216864229ED20E6002996A1 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		4216864429ED2161002996A1 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		4216864629ED21D5002996A1 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		4216865329ED2AEE002996A1 /* searchButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchButtons.swift; sourceTree = "<group>"; };
+		4216865529F720BB002996A1 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		425930342A05B18D00BC3D44 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		42B7DA772A335149005C7C91 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		42B7DA792A33529D005C7C91 /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		42B7DA7D2A37CD07005C7C91 /* KleidungVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KleidungVC.swift; sourceTree = "<group>"; };
+		42C3AAED29FBAF3D00D02A24 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		42C3AAEF29FBCF1D00D02A24 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		42C3AAF129FC4CF800D02A24 /* TovarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TovarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,42 @@
 		4216862C29ED1B46002996A1 /* klaudinq */ = {
 			isa = PBXGroup;
 			children = (
-				4216862D29ED1B46002996A1 /* AppDelegate.swift */,
-				4216862F29ED1B46002996A1 /* SceneDelegate.swift */,
-				4216863129ED1B46002996A1 /* ViewController.swift */,
-				4216863329ED1B46002996A1 /* Main.storyboard */,
+				421725502AE87DCF00ADD09D /* App */,
+				42C3AAEF29FBCF1D00D02A24 /* Item.swift */,
+				4216865329ED2AEE002996A1 /* searchButtons.swift */,
+				4217254F2AE87DB500ADD09D /* Core */,
+				42C3AAF129FC4CF800D02A24 /* TovarVC.swift */,
+				425930342A05B18D00BC3D44 /* CartManager.swift */,
+				42C3AAED29FBAF3D00D02A24 /* MenuCollectionViewCell.swift */,
+				4216865529F720BB002996A1 /* ProductsVC.swift */,
+				42B7DA792A33529D005C7C91 /* CartCell.swift */,
 				4216863629ED1B47002996A1 /* Assets.xcassets */,
 				4216863829ED1B47002996A1 /* LaunchScreen.storyboard */,
 				4216863B29ED1B47002996A1 /* Info.plist */,
 			);
 			path = klaudinq;
+			sourceTree = "<group>";
+		};
+		4217254F2AE87DB500ADD09D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4216864229ED20E6002996A1 /* TabBarVC.swift */,
+				42B7DA7D2A37CD07005C7C91 /* KleidungVC.swift */,
+				4216863129ED1B46002996A1 /* HomeViewController.swift */,
+				4216864429ED2161002996A1 /* SearchVC.swift */,
+				4216864629ED21D5002996A1 /* CartVC.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		421725502AE87DCF00ADD09D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4216862D29ED1B46002996A1 /* AppDelegate.swift */,
+				4216862F29ED1B46002996A1 /* SceneDelegate.swift */,
+				42B7DA772A335149005C7C91 /* extensions.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +144,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					4216862929ED1B46002996A1 = {
 						CreatedOnToolsVersion = 14.3;
@@ -127,7 +176,6 @@
 			files = (
 				4216863A29ED1B47002996A1 /* LaunchScreen.storyboard in Resources */,
 				4216863729ED1B47002996A1 /* Assets.xcassets in Resources */,
-				4216863529ED1B46002996A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +186,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4216863229ED1B46002996A1 /* ViewController.swift in Sources */,
+				425930352A05B18D00BC3D44 /* CartManager.swift in Sources */,
+				42B7DA7A2A33529D005C7C91 /* CartCell.swift in Sources */,
+				42C3AAF029FBCF1D00D02A24 /* Item.swift in Sources */,
+				42C3AAEE29FBAF3D00D02A24 /* MenuCollectionViewCell.swift in Sources */,
+				4216863229ED1B46002996A1 /* HomeViewController.swift in Sources */,
+				42C3AAF229FC4CF800D02A24 /* TovarVC.swift in Sources */,
+				4216864529ED2161002996A1 /* SearchVC.swift in Sources */,
+				4216864729ED21D5002996A1 /* CartVC.swift in Sources */,
+				42B7DA782A335149005C7C91 /* extensions.swift in Sources */,
+				4216865629F720BB002996A1 /* ProductsVC.swift in Sources */,
 				4216862E29ED1B46002996A1 /* AppDelegate.swift in Sources */,
+				4216864329ED20E6002996A1 /* TabBarVC.swift in Sources */,
+				42B7DA7E2A37CD07005C7C91 /* KleidungVC.swift in Sources */,
+				4216865429ED2AEE002996A1 /* searchButtons.swift in Sources */,
 				4216863029ED1B46002996A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +207,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4216863329ED1B46002996A1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4216863429ED1B46002996A1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4216863829ED1B47002996A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -202,6 +254,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -262,6 +315,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -291,7 +345,6 @@
 				INFOPLIST_FILE = klaudinq/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +371,6 @@
 				INFOPLIST_FILE = klaudinq/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
