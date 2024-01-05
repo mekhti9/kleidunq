@@ -9,7 +9,7 @@ import UIKit
 
 class SearchVC: UIViewController {
     let scrollView = UIScrollView()
-    let searchBar = UISearchBar()
+    let searchTextField = UITextField()
     let sneakers = searchButtons(title: "SNEAKERS")
     let accessories = searchButtons(title: "ACCESSORIES")
     let pants = searchButtons(title: "PANTS")
@@ -57,7 +57,28 @@ class SearchVC: UIViewController {
     }
     
     func searchSetup() {
-        view.addSubview(searchBar)
+        view.addSubview(searchTextField)
+        searchTextField.translatesAutoresizingMaskIntoConstraints = false
+        searchTextField.layer.cornerRadius = 10
+        searchTextField.layer.borderWidth = 2
+        searchTextField.layer.borderColor = UIColor.systemGray4.cgColor
+        searchTextField.textColor = .label
+        searchTextField.tintColor = .label
+        searchTextField.textAlignment = .center
+        searchTextField.font = UIFont.preferredFont(forTextStyle: .title2)
+        searchTextField.adjustsFontSizeToFitWidth = true
+        searchTextField.minimumFontSize = 12
+        searchTextField.backgroundColor = .tertiarySystemBackground
+        searchTextField.autocorrectionType = .no
+        searchTextField.placeholder = "Enter a username"
+        
+        NSLayoutConstraint.activate([
+            searchTextField.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: 50),
+            usernameTextField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
+            usernameTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
+            usernameTextField.heightAnchor.constraint(equalToConstant: 50)
+        ])
+        
     }
     
     func allButton() {
